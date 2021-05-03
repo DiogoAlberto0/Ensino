@@ -1,0 +1,23 @@
+{
+  "name": "32-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "production": "pm2 start index.js --name appx-backend",
+    "reset": "pm2 restart 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pm2": "^4.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selecionar Elementos #03</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form input,
+        form select,
+        form button {
+            margin: 10px;
+            font-size: 1.6em;
+        }
+    </style>
+</head>
+
+<body class="conteudo exercicio">
+    <h1>Formulário</h1>
+    <form name="pesquisa" action="https://www.youtube.com/results?search_query">
+        <input type="text" name="search_query" placeholder="Digite o termo...">
+        <select name="sp">
+            <option value="EgIIAQ">Ultima hora</option>
+            <option value="EgQIAhAB">Hoje</option>
+            <option value="EgQIAxAB">Esta semana</option>
+            <option value="EgQIBBAB">Este mês</option>
+            <option value="EgQIBRAB">Este ano</option>
+        </select>
+        <button>Pesquisar</button>
+    </form>
+    <script>
+        console.log(document.forms)
+        console.log(document.forms[0])
+        console.log(document.getElementsByName('pesquisa'))
+        console.log(document.pesquisa)
+        console.log(document.pesquisa.sp)
+        //document.pesquisa.sp.value = ""
+        console.log(document.pesquisa.sp.selectedIndex)
+    </script>
+</body>
+
+</html>

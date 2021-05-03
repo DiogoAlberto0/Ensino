@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Corn-snake Amel",
+      "price": "150"
+    },
+    {
+      "id": "2",
+      "name": "Corn-snake Anery",
+      "price": "150"
+    },
+    {
+      "id": "3",
+      "name": "Corn-snake Snow",
+      "price": "400"
+    },
+    {
+      "id": "4",
+      "name": "Corn-snake Blizzard",
+      "price": "900"
+    }
+  ]
+}
